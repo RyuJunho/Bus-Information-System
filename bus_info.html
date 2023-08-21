@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script type="module" defer src="./assets/js/getdispatch_interval.js"></script>
+    <script type="module" defer src="./assets/js/getmain_stop.js"></script>
+    <script type="module" defer src="./assets/js/getservice_area.js"></script>
+    <script type="module" defer src="./assets/js/getservice_time.js"></script>
+    <script type="module" defer src="./assets/js/businfobtn.js"></script>
+    <title>bus_info</title>
+</head>
+<body>
+    <header>
+        <div id="head">버스운행정보</div>
+        <div id="bus_name"></div>
+    </header>
+
+    <section class="bus_container">
+        <div class="bus_info">
+            <img src="./assets/img/route.png" alt="(노선)" width="25">
+            운행지역
+        </div>
+        <p id="service_area"></p>
+
+        <div class="bus_info">
+            <img src="./assets/img/clock.png" alt="(시계)" width="25">
+            운행시간
+        </div>
+        <p id="service_time"></p>
+
+        <div class="bus_info">
+            <img src="./assets/img/hourglass.png" alt="(모래시계)" width="25">
+            배차간격
+        </div>
+        <p id="dispatch_interval"></p>
+
+        <div class="bus_info">
+            <img src="./assets/img/bus-stop.png" alt="(정류장)" width="25">
+            주요 정차 정류소
+        </div>
+        <p id="main_stop"></p>
+    </section>
+
+      <footer class = "parent">
+        <div class = "child">
+            <a class="mainlink" href="index.html">홈</a>
+        </div>
+        <div class = "child">
+            <a class="infolink" href="bus_select.html">운행 정보</a>
+        </div>
+      </footer>
+</body>
+</html>
+

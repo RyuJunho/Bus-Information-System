@@ -1,0 +1,153 @@
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  z-index: 1;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  background-color: #ddd;
+}
+
+/* 노선 상세 정보 */
+#head{
+  background-color: #0058A6;
+  height: 80px;
+  float : top;
+  color : white;
+  text-align: center;
+  line-height: 80px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2rem; /*자간*/
+}
+
+/* 노선 방향 선택 화면 */
+#nav{
+  background-color: white;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 25px;
+}
+
+/* 동의대본관행 */
+#direction1, #bus6{
+  margin : 10px 10px 10px 10px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  background-color: #000069;
+  color : white;
+  text-align: center;
+  line-height: 40px;
+  font-weight : bold;
+  font-size: large;
+}
+
+/* 신주례LG아파트행 */
+#direction2, #bus6-1, #bus9{
+  margin : 10px 10px 10px 10px;
+  border-radius: 15px 15px 15px 15px;
+  border: none;
+  background-color: #b4b4dc;
+  text-align: center;
+  line-height: 40px;
+  font-weight : bold;
+  font-size: large;
+}
+
+.service_area {
+  margin-top: 150px;
+}
+
+.route{
+  margin-bottom: 100px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0; left: 0;
+  height: 80px;
+  width: 100%;
+  background-color: #0058A6;
+  color : white;
+  text-align: center;
+  line-height: 80px;
+  font-size: 25px;
+}
+
+li { 
+  margin:100px 0 100px 0;
+}
+  
+.parent{
+  display : flex;
+}
+
+.child { 
+  flex: 1;
+}
+
+.bus_container{
+  margin-top: 150px;
+}
+
+#bus_name{
+  background-color: #969696;
+  height: 60px;
+  float : top;
+  text-align: center;
+  line-height: 60px;
+  font-size: 25px;
+  font-weight : bold;
+}
+
+.bus_info{
+  background-color: #dcdcdc;
+  height: 30px;
+  float : top;
+  text-align: left;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.bus_info img{
+  vertical-align: middle;
+}
+
+.busselect{
+  margin-top: 100px;
+}
+
+.bus_menu{
+  background-color: white;
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 4rem auto;
+}
+
+.bus_num{
+  text-align: left;
+  line-height: 10px;
+  font-size: 18px;
+}
+
+.bus_icon img{
+  padding-top: 10px;
+}
+
+.bus_num a{
+  color: black;
+  text-decoration: none;
+}
+
+.link {
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  width: auto;
+}

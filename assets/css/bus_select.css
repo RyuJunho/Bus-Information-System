@@ -1,0 +1,68 @@
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  top: 0; left: 0;
+  height: 100px;
+  width: 100%;
+}
+
+/* 노선 상세 정보 */
+ #head{
+  background-color: #0058A6;
+  height: 80px;
+  float : top;
+  color : white;
+  text-align: center;
+  line-height: 80px;
+  font-size: 25px;
+}
+
+ footer {
+  position: fixed;
+  bottom: 0; left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #0058A6;
+  color : white;
+  text-align: center;
+  line-height: 80px;
+  font-size: 25px;
+}
+
+li {
+  margin:100px 0 100px 0;
+}
+  
+.parent{
+  display : flex;
+}
+
+
+.bus_menu{
+    height: 1%;
+    background-color: white;
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+}
+
+.bus_icon{
+    width : 100px;
+}
+
+.bus_name{
+  text-align: left;
+  line-height: 10px;
+  font-size: 18px;
+}
+
+.bus_name a{
+    color: black;
+    text-decoration: none;
+}
+
+.bus_icon img{
+  width: 50%;
+}
